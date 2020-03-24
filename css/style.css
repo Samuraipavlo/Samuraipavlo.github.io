@@ -120,7 +120,7 @@ nav{
 	margin-bottom: 3%;
 	display: flex;
 	justify-content: space-around;
-	background-image: url(../img/forest.jpg);
+	background-image: url(../img/forest_contant.jpg);
 	background-size: 100%;
 	background-attachment: cover;
 	background-repeat: no-repeat;
@@ -186,36 +186,45 @@ nav{
     background: blue;
     border: 0.1px solid white;
     background-attachment: cover;
-    background-size: 100%;
+    background-size: 105%;
     background-repeat: no-repeat;
     cursor: pointer;
 }
 
 .box{
-    background-image: url(../img/stine.jpg);
+    background-image: url(../img/forest.jpg);
 }
 
 .box_1{
-    background-image: url(../img/ocean.jpg);
+    background-image: url(../img/forest_1.jpg);
 }
 
 .box_2{
-    background-image: url(../img/neon.jfif);
+    background-image: url(../img/forest_2.jpg);
 }
 
 .box_3{
-    background-image: url(../img/lion.jpg);
+    background-image: url(../img/forest_3.jpg);
 }
 
 .box_4{
-    background-image: url(../img/img.jfif);
+    background-image: url(../img/forest_4.jpg);
 }
 
 .box_5{
-    background-image: url(../img/images.jfif);
+    background-image: url(../img/forest_5.jpg);
 }
 
 a{
     color: white;
     cursor: pointer;
+}
+
+.box:hover, .box_1:hover, .box_2:hover, .box_3:hover, .box_4:hover, .box_5:hover {
+    width: 75%;
+    height: 14%;
+    -webkit-box-shadow: -1px 3px 29px 0px rgba(255,255,255, 0.9);
+    -moz-box-shadow: -1px 3px 29px 0px rgba(255,255,255, 0.9);    
+    box-shadow: -1px 3px 29px 0px rgba(255,255,255, 0.9);
+    transition: 0.5s;
 }
