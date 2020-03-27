@@ -1,10 +1,306 @@
-*{
+* {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'Gothic A1', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
-.container{
+.centered{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
 	width: 100%;
+	padding-top: 10vh;
+}
+
+.website-content {
+	display: flex;
+	flex-direction: column;
+	width: 75%;
+	margin: 0 auto;
+}
+
+.popular-places-container {
+	width: 100%;
+	background: #e5e5e5;
+	display: flex;
+	justify-content: center;
+}
+
+.content-inside {
+	margin-top: -5vh;
+	width: 85%;
+	height: 120vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.rent-container {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 42vh;
+}
+
+.hotel-car {
+	width: 29%;
+	height: 42vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.rent-element {
+	width: 50%;
+	height: 5vh;
+	background: #EAC20A;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5;
+	user-select: none;
+	cursor: pointer;
+}
+
+.rent-element:nth-child(1) {
+	background: white;
+}
+
+.rent-tab-header {
+	display: flex;
+}
+
+.tabcontent {
+	width: 100%;
+	height: 30vh;
+	background: white;
+}
+
+form[method="post"] {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 26vh;
+	width: 100%;
+	padding-top: 2vh;
+}
+
+select:required:invalid {
+	color: #666;
+}
+
+select {
+	font-size: 2vh;
+	width: 85%;
+	border: 0.1vh solid #666;
+	padding: 0.6vh;
+}
+
+option {
+	color: #000;
+	font-size: 2vh;
+}
+
+input[type="date"] {
+	width: 85%;
+	font-size: 2vh;
+	border: 0.1vh solid #666;
+	padding: 0.6vh;
+}
+
+[type="date"] {
+	background: #fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png) 97% 50% no-repeat;
+}
+
+[type="date"]::-webkit-inner-spin-button {
+	display: none;
+}
+
+[type="date"]::-webkit-calendar-picker-indicator {
+	opacity: 0;
+}
+
+input[type="number"] {
+	width: 85%;
+	font-size: 2vh;
+	color: black;
+	border: 0.1vh solid #666;
+	padding: 0.6vh;
+}
+
+.checknow-container {
+	width: 100%;
+	height: 7vh;
+	background: #EAC20A;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0px 15px 4px -12px rgba(0, 0, 0, 0.64);
+}
+
+.rent-checknow {
+	width: 10vh;
+	height: 4vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: black;
+	font-size: 1.5vh;
+	background: #f5d23a;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.64);
+	font-weight: bold;
+}
+
+.popular-city{
+	width: 29%;
+	display: flex;
+	flex-direction: column;
+}
+
+.city-preview{
+	width: 100%;
+	height: 35vh;
+	background: url(https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+	background-size: cover;
+	background-position: center;
+}
+
+.city-about{
+	width: 100%;
+	height: 7vh;
+	background: #27C267;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+	font-size: 2vh;
+	padding: 0 2.5vh 0 2.5vh;
+}
+
+.popular-city:nth-child(3) .city-about{
+	background: #EB5D4F;
+}
+
+.popular-city:nth-child(3) .city-preview{
+	background: url(https://images.pexels.com/photos/597049/paris-france-eiffel-tower-597049.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+	background-size: cover;
+	background-position: center bottom;
+}	
+
+.lorem-title{
+	font-size: 3.5vh;
+	text-transform: uppercase;
+	position: relative;
+	width: 100%;
+	text-align: center;
+	font-weight: normal;
+	color: #444540;
+}
+
+.lorem-title::before{
+	content: "";
+	position: absolute;
+	top: 1.74vh;
+	left: 0;
+	background: #444540;
+	width: 20%;
+	height: 0.1vh;
+}
+
+.lorem-title::after{
+	content: "";
+	position: absolute;
+	top: 1.74vh;
+	right: 0;
+	background: #444540;
+	width: 20%;
+	height: 0.1vh;
+}
+
+.interesting-place-container{
+	width: 100%;
+	height: 60vh;
+	display: flex;
+	justify-content: space-between;
+}
+
+.interesting-place{
+	width: 23.5%;
+	height: 45vh;
+	background: white;
+	display: flex;
+	flex-direction: column;
+}
+
+.place-preview{
+	width: 100%;
+	height: 23vh;
+	background: url(../../img/Screenshot_1.png);
+	background-size: cover;
+}
+
+.interesting-place:nth-child(2) .place-preview{
+	background: url(../../img/Screenshot_2.png);
+	background-size: cover;
+}
+
+.interesting-place:nth-child(3) .place-preview{
+	background: url(../../img/Screenshot_3.png);
+	background-size: cover;
+}
+
+.interesting-place:nth-child(4) .place-preview{
+	background: url(../../img/Screenshot_4.png);
+	background-size: cover;
+}
+.place-about{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	height: 16.5vh;
+	padding: 3vh 0.5vh 1.5vh 2vh;
+}
+
+.place-about-text{
+	width: 75%;
+	font-size: 2vh;
+}
+
+.place-about-date{
+	color: #c0c0c0;
+	font-size: 1.5vh;
+}
+
+.place-actions{
+	width: 100%;
+	height: 5.4vh;
+	border-top: 0.1vh solid #666;
+	display: flex;
+}
+
+.icon-container{
+	width: 20%;
+	height: 5.4vh;
+}
+
+.icon-container:nth-child(1){
+	border-right: 0.1vh solid #666;
+}
+
+.icon-container img{
+	width: 65%;
+}
+
+.travel-button{
+	width: 60%;
+	font-size: 1.5vh;
+	border-right: 0.1vh solid #666;
 }
