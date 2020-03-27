@@ -7,8 +7,6 @@
 
 .container{
 	width: 100%;
-<<<<<<< Updated upstream
-=======
 	height: 100%;
 	display: flex;
 	flex-direction: column;
@@ -52,5 +50,3 @@
 .menu a{
 	text-decoration: none;
 	color: gray;
->>>>>>> Stashed changes
-}
