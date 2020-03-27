@@ -2,9 +2,55 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'Gothic A1', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 .container{
 	width: 100%;
+<<<<<<< Updated upstream
+=======
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.header{
+	width: 100%;
+	height: 100vh;
+	background: black;
+}
+
+.top_header{
+	width: 100%;
+	height: 11%;
+	background: white;
+	display: flex;
+}
+
+.top_header h2{
+	color: yellow;
+}
+
+.name{
+	width: 10%;
+	height: 100%;
+	border: 2px solid purple;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu{
+	width: 35%;
+	height: 100%;
+	border: 2px solid yellow;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+
+.menu a{
+	text-decoration: none;
+	color: gray;
+>>>>>>> Stashed changes
 }
