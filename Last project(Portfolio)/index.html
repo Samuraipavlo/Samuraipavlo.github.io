@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header-container" id="header">
+            <div class="header_menu" id="menu">
+                <div class="logo" id="logo"></div>
+                <div class="menu">
+                    <div class="link"><a id="a" href="#header">Home</a></div>
+                    <div class="link"><a id="a" href="#about-me">About</a></div>
+                    <div class="link"><a id="a" href="#works">Works</a></div>
+                    <div class="link"><a id="a" href="#hobbies">Hobbies</a></div>
+                    <div class="link"><a id="a" href="#contact">Contact</a></div>
+                </div>
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                      <span></span>
+                    </label>
+                
+                    <ul class="menu__box">
+                        <li><a class="menu__item" href="#header">Home</a></li>
+                        <li><a class="menu__item"  href="#about-me">About</a></li>
+                        <li><a class="menu__item"  href="#works">Works</a></li>
+                        <li><a class="menu__item"  href="#hobbies">Hobbies</a></li>
+                        <li><a class="menu__item"  href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header_me">
+                <div class="photo-me"></div>
+                <h1>Hi! I'm Pavlo Chuhaida</h1>
+                <div class="text-me">
+                    <span class="txt-rotate" data-period="2000" data-rotate='[ "I Am Web Developer.", "I Am Gamer.", "I Am Volleyball player.", "I Am Speedcuber." ]'></span>
+                </div>
+            </div>
+        </div>   
+        <div class="about-me-container" id="about-me">
+            <div class="about_me">
+                <h1>About me.</h1>
+                <p class="about_me-text">I'm <b>Paul</b>. I'm a Web Developer, although I'm just a beginner I'm always ready to learn new things and improve what I have acquired. I'm a novice developer and have the skills to help your business, organization in developing their own Internet resource, site to disseminate your information.</p>
+                <div class="date">
+                    <div><p><b>Name:</b></p> <p>Pavlo Chuhaida</p></div>
+                    <div><p><b>Address:</b></p> <p>Ivano - Frankivs`k, UA</p></div>
+                    <div><p><b>Age:</b></p> <p>15</p></div>
+                    <div><p><b>Phone:</b></p> <p>+380 98 710 2874</p></div>
+                    <div><p><b>Disсord:</b></p> <p>Old_Samurai#3931</p></div>
+                </div>
+                <div class="button_container">
+                    <a href="#contact"><button>Hire me</button></a>
+                </div>
+            </div>
+            <dic class="skills">
+                <div class="skillbar" data-percent = "93%" id="skillbar">
+                    <div class="skill-title" style="background: #B6B9BF;" id="skill-title"><span>HTML5</span></div>
+                    <div class="skillbar-bar" style="background: #B6B9BF;" id="skill-bar"></div>
+                    <div class="skillbar-bar-percent" id="skillbar-bar-percent">93%</div>
+                </div>
+                <div class="skillbar" data-percent = "96%" id="skillbar">
+                    <div class="skill-title" style="background: #A8ABB1;" id="skill-title"><span>CSS3</span></div>
+                    <div class="skillbar-bar" style="background: #A8ABB1;" id="skill-bar"></div>
+                    <div class="skillbar-bar-percent" id="skillbar-bar-percent">96%</div>
+                </div>
+                <div class="skillbar" data-percent = "45%" id="skillbar">
+                    <div class="skill-title" style="background: #7C7A79;" id="skill-title"><span>JS</span></div>
+                    <div class="skillbar-bar" style="background: #7C7A79;" id="skill-bar"></div>
+                    <div class="skillbar-bar-percent" id="skillbar-bar-percent">45%</div>
+                </div>
+                <div class="skillbar" data-percent = "15%" id="skillbar">
+                    <div class="skill-title" style="background: #74787D;" id="skill-title"><span>JQUERY</span></div>
+                    <div class="skillbar-bar" style="background: #74787D;" id="skill-bar"></div>
+                    <div class="skillbar-bar-percent" id="skillbar-bar-percent">20%</div>
+                </div>
+                <div class="skillbar" data-percent = "75%" id="skillbar">
+                    <div class="skill-title" style="background: #94989D;" id="skill-title"><span>BEM</span></div>
+                    <div class="skillbar-bar" style="background: #94989D;" id="skill-bar"></div>
+                    <div class="skillbar-bar-percent" id="skillbar-bar-percent">72%</div>
+                </div>
+                <div class="skillbar" data-percent = "56%" id="skillbar">
+                    <div class="skill-title" style="background: #B6B9BF;" id="skill-title"><span>GITHUB</span></div>
+                    <div class="skillbar-bar" style="background: #B6B9BF;" id="skill-bar"></div>
+                    <div class="skillbar-bar-percent" id="skillbar-bar-percent">56%</div>
+                </div>
+            </dic>
+        </div> 
+        <div class="works" id="works">
+            <h1>Projects and Sites</h1>
+            <div class="works-container">
+                <div class="top_line">
+                    <div class="box_works">
+                        <div class="works_1"></div>
+                        <p id="myBtn_1">Site directory</p>
+                    </div>
+                    <div class="box_works">
+                        <div class="works_2"></div>
+                        <p id="myBtn_2">Ten fingerprint</p>
+                    </div>
+                    <div class="box_works">
+                        <div class="works_3"></div>
+                        <p id="myBtn_3">Portfolio</p>
+                    </div>
+                </div>
+                <div class="bottom_line">
+                    <div class="box_works">
+                        <div class="works_4"></div>
+                        <p id="myBtn_4">Team project</p>
+                    </div>
+                    <div class="box_works">
+                        <div class="works_5"></div>
+                        <p id="myBtn_5">Sait Holiday tour</p>
+                    </div>
+                    <div class="box_works">
+                        <div class="works_6"></div>
+                        <p id="myBtn_6">Github project</p>
+                    </div>
+                </div>
+                <div id="myModel" class="modal_1">
+                    <div class="modal-contant_1">
+                        <div class="block_more_1">
+                            <div class="images"></div>
+                            <div class="text_1">
+                                <p><b>Theme</b>: <span>Tea and coffee catalog</span></p>
+                                <p><b>Technology</b>: <span>WordPress</span></p>
+                                <p><b>Audience</b>: <span>Connoisseurs of tea and coffee</span></p>
+                            </div>
+                            <a href="http://kawatachay.xyz/"><button>review</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div id="myModel_2" class="modal_2">
+                    <div class="modal-contant_2">
+                        <div class="block_more_2">
+                            <div class="images_2"></div>
+                            <div class="text_2">
+                                <p><b>Theme</b>: <span>The importance of ten-finger printing</span></p>
+                                <p><b>Technology</b>: <span>HTML5, CSS3, FLEX, JS</span></p>
+                                <p><b>Audience</b>: <span>Users wanting to improve their skills</span></p>
+                            </div>
+                            <a href="./training typing/typing.html"><button>review</button></a>
+                        </div>
+                    </div>
+                </div> 
+                <div id="myModel_3" class="modal_3">
+                    <div class="modal-contant_3">
+                        <div class="block_more_3">
+                            <div class="images_3"></div>
+                            <div class="text_3">
+                                <p><b>Theme</b>: <span> Show my progress in skills</span></p>
+                                <p><b>Technology</b>: <span>Bootstrap</span></p>
+                                <p><b>Audience</b>: <span>Сustomer</span></p>
+                            </div>
+                            <a href="./POrtFOlio/index.html"><button>review</button></a>
+                        </div>
+                    </div>
+                </div> 
+                <div id="myModel_4" class="modal_4">
+                    <div class="modal-contant_4">
+                        <div class="block_more_4">
+                            <div class="images_4"></div>
+                            <div class="text_4">
+                                <p><b>Theme</b>: <span>The beautiful world of wildlife</span></p>
+                                <p><b>Technology</b>: <span>HTML5, CSS3, FLEX</span></p>
+                                <p><b>Audience</b>: <span>Сustomer</span></p>
+                            </div>
+                            <a href="./nature/index.html"><button>review</button></a>
+                        </div>
+                    </div>
+                </div> 
+                <div id="myModel_5" class="modal_5">
+                    <div class="modal-contant_5">
+                        <div class="block_more_5">
+                            <div class="images_5"></div>
+                            <div class="text_5">
+                                <p><b>Theme</b>: <span>Show my teamwork skills</span></p>
+                                <p><b>Technology</b>: <span>HTML5, CSS3, FLEX</span></p>
+                                <p><b>Audience</b>: <span>Guest</span></p>
+                            </div>
+                            <a href="https://samuraipavlo.github.io/holidaytour"><button>review</button></a>
+                        </div>
+                    </div>
+                </div> 
+                <div id="myModel_6" class="modal_6">
+                    <div class="modal-contant_6">
+                        <div class="block_more_6">
+                            <div class="images_6"></div>
+                            <div class="text_6">
+                                <p><b>Theme</b>: <span>Show my results with GItHub</span></p>
+                                <p><b>Technology</b>: <span>HTML5, CSS3, FLEX, GIT</span></p>
+                                <p><b>Audience</b>: <span>Visitor</span></p>
+                            </div>
+                            <a href="https://samuraipavlo.github.io/"><button>review</button></a>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <div class="hobbies" id="hobbies">
+            <div class="hobbies-container">
+                <h1 class="hobbi_h1">Hobbies & Interests</h1>
+                <div class="top_line">
+                    <div class="box_hobbie">
+                        
+                        <h3>Music</h3>
+                    </div>
+                    <div class="box_hobbie">
+                        
+                        <h3>Gaming</h3>
+                    </div>
+                    <div class="box_hobbie">
+                        
+                        <h3>Traveling</h3>
+                    </div>
+                </div>
+                <div class="middle_line">
+                    <div class="box_hobbie">
+                        
+                        <h3>Solved a rubik's cube</h3>
+                    </div>
+                    <div class="box_hobbie">
+                        
+                        <h3>Improve skills</h3>
+                    </div>
+                    <div class="box_hobbie">
+                        
+                        <h3>Read the documentation</h3>
+                    </div>
+                </div>
+                <div class="bottom_line">
+                    <div class="box_hobbie">
+                        
+                        <h3>Volleyball</h3>
+                    </div>
+                    <div class="box_hobbie">
+                        
+                        <h3>Shopping</h3>
+                    </div>
+                    <div class="box_hobbie">
+                        
+                        <h3>Surf the internet</h3>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div class="contact-container">
+            <div class="top_contact">
+                <div class="contact_text">
+                    <h1>Get In Touch</h1>
+                    <hr>
+                    <p>Here you can contact me</p>
+                </div>
+                <div class="get_in_touch">
+                    <div class="contact_address">
+                        <div class="icon_address"></div>
+                        <p>
+                            street Naberezhna 24
+                            <br>
+                            Pidlissia village
+                        </p>
+
+                    </div>
+                    <div class="contact_phone">
+                        <div class="icon_phone"></div>
+                        <p>+380 98710 2874</p>
+                        <p>+380 98710 2874</p>
+                    </div>
+                    <div class="contact_gmail">
+                        <div class="icon_gmail"></div>
+                        <p>chuhalidapablo12@gmail.com</p>
+                        <p>chuhalidapablo12@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom_form"  id="contact">
+                <div class="sociable">
+                    <h2>Let's conect</h2>
+                    <div class="facebook">
+                        <div class="icon_facebook"></div>  
+                        <p>Facebook</p>
+                    </div>
+                    <div class="twitter">
+                        <div class="icon_twitter"></div> 
+                        <p>Twitter</p> 
+                    </div>
+                    <div class="instagram">
+                        <div class="icon_instagram"></div>  
+                        <p>Instagram</p>
+                    </div>
+                    <div class="googleplus">
+                        <div class="icon_googleplus"></div>  
+                        <p>Google Plus</p>
+                    </div>
+                    <div class="pinterest">
+                        <div class="icon_pinterest"></div> 
+                        <p>Pinterest</p> 
+                    </div>
+                    <div class="steam">
+                        <div class="icon_steam"></div> 
+                        <p>Steam</p> 
+                    </div>
+                </div>
+                <div class="form">
+                    <p>Send Me a Message</p>
+
+                    <div class="name_line">
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">    
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    </div>   
+                    <input type="text" id="subject" name="subject" placeholder="Subject">                   
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    <button type="submit" id="button_submit">Submit</button>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,223 @@
+*{
+	box-sizing:border-box; 
+}
+.container{
+	width:960px;
+	margin:0 auto;   
+}
+body{	
+    background: linear-gradient(to top, #fefcea, #f1da36);
+    padding: 10px;
+}
+.row{
+	margin-bottom:20px; 
+}
+.row:after{
+	display:block;
+	content:'';
+	height:0;
+	visibility:hidden;
+	clear:both;     
+}
+[class*="column"]{
+	float:left;
+	display:inline; 
+	margin-right:10px;
+	margin-left:10px;  
+}
+.column-1   {width: 60px;}
+.column-2   {width: 140px;}
+.column-3   {width: 220px;}
+.column-4   {width: 300px;}
+.column-5   {width: 380px;}
+.column-6   {width: 460px;}
+.column-7   {width: 540px;}
+.column-8   {width: 620px;}
+.column-9   {width: 700px;}
+.column-10  {width: 780px;}
+.column-11  {width: 860px;}
+.column-12  {width: 940px;}
+
+.offset1 	{margin-left:60px;}
+.offset2 	{margin-left:140px;}
+.offset3 	{margin-left:220px;}
+.offset4 	{margin-left:300px;}
+.offset5 	{margin-left:380px;}
+.offset6 	{margin-left:460px;}
+.offset7 	{margin-left:540px;}
+.offset8 	{margin-left:620px;}
+.offset9 	{margin-left:700px;}
+.offset10	{margin-left:780px;}
+.offset11	{margin-left:860px;}
+.offset12	{margin-left:940px;}
+
+.line{
+	height: 100px;
+	border-bottom: 50px solid green;
+
+}
+.logo{
+	height: 100px;
+	background-size: 100%;
+	background-attachment: cover;
+	background-image: url(../img/me.png);
+}
+.portfolio{
+	height: 100px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	margin-right: 0px;
+	text-align: center;
+	line-height: 100px;
+	font-family: 'Lobster', cursive;
+	font-size: 50px;	
+}
+.box1, .box2{
+	height: 300px;
+	text-align: center;
+	padding-top: 60px; 
+}
+.box1{
+	background-size: 120%;
+	background-attachment: cover;
+	background-image: url(../img/p.png);	
+}
+.silka{
+	text-decoration: none;
+	position: absolute;
+	top: 550px;
+	left: 640px;
+	font-size: 50px;
+	font-family: 'Lobster', cursive;
+}
+[class*="img"]{
+	height: 200px;
+}
+[class*="text"]{
+	height: 200px;
+	text-align: center;
+	font-family: 'Noto Serif', serif;
+	font-size: 15px;
+}
+[class*="name"]{
+	color: #26a69a;
+	font-family: 'Lobster', cursive;
+}
+.img1{
+	background-size: 100%;
+	background-attachment: cover;
+	background-image: url(../img/earth.png);
+}
+.img2{
+	background-size: 100%;
+	background-attachment: cover;
+	background-image: url(../img/pamkin.png);
+}
+.img3{
+	background-size: 100%;
+	background-attachment: cover;
+	background-image: url(../img/snig.png);
+}
+.img4{
+	background-size: 100%;
+	background-attachment: cover;
+	background-image: url(../img/svitlo.png);
+}
+.img5{
+	background-size: 100%;
+	background-attachment: cover;
+	background-image: url(../img/packman.png);
+}
+.img6{
+	background-size: 100%;
+	background-attachment: cover;
+	background-image: url(../img/easter.png);
+}
+.info{
+	text-align: left;
+	line-height: 50px;
+	border-left: 3px solid black;
+	border-top: 2px dotted black;
+	font-size: 15px;
+	margin-right: -7px; 
+}
+.info1{
+	text-align: center;
+	line-height: 50px;
+	border-top: 2px dotted black;
+	font-size: 30px;
+	padding-top: 15px;
+}
+.facebook{
+	height: 60px;
+	width: 60px;
+	display: inline-block;
+	background-size: 100%;
+	background-attachment: cover;
+	background-image: url(../img/facebook.svg);
+}
+.instagram{
+	height: 60px;
+	width: 60px;
+	display: inline-block;
+	background-size: 100%;
+	background-attachment: cover;
+	background-image: url(../img/instagram.svg);
+}
+.twitter{
+	height: 60px;
+	width: 60px;
+	display: inline-block;
+	background-size: 100%;
+	background-attachment: cover;
+	background-image: url(../img/twitter.svg);
+}
+.h2{
+	font-size: 17px; 
+}
+.h1{
+	font-size: 17px; 
+	text-align: center; 
+}
+.h3{
+	font-size: 25px; 
+	text-align: center; 
+}
+.foto{
+	height: 400px;
+	background-size: 100%;
+	background-attachment: cover;
+	background-image: url(../img/p.png);
+}
+.title{
+	font-family: 'Lobster', cursive;
+	font-size: 50px;
+	border-top: 1px solid black;  
+}
+.about{
+	font-size: 25px;
+	font-family:  cursive; 
+}
+.other{
+	font-size: 50px;
+	font-family: 'Lobster' cursive;
+}
+[class*="project"]{
+	height: 200px;
+}
+.one{
+	height: 190px;
+	background-size: 100%;
+	background-attachment: cover;
+	background-image: url(../img/earth.png);
+}
+.three{
+	height: 190px;
+	background-size: 100%;
+	background-attachment: cover;
+	background-image: url(../img/packman.png);
+}
+.two, .four{
+	position: absolute;
+	font-size: 28px;
+}

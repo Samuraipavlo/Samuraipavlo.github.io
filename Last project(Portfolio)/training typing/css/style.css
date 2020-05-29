@@ -1,0 +1,296 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Noto Sans KR', sans-serif;
+	color: #767676;
+}
+
+.mb-2{
+	margin-bottom: 2%	
+}
+
+.container{
+	width: 70vw;
+	margin: 0 auto;
+}
+
+.header{
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.title{
+	width: 30%;
+	height: 8vh;
+	font-size: 1.8em;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.menu{
+	width: 40%;
+	height: 8vh;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.in_menu{
+	width: 45%;
+	height: 50%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+a{
+	text-decoration: none;
+	color: #767676;
+}
+
+.contant{
+	width: 100%;
+	height: 80vh;
+}
+
+.h1_contant{
+	width: 100%;
+	height: 5vh;
+	display: flex;
+	justify-content: center;
+	font-size: 2em;
+}
+
+.line_1{
+	width: 100%;
+	height: 50%;
+	display: flex;
+	flex-direction: row;
+}
+
+.line_2{
+	width: 100%;
+	height: 50%;
+	display: flex;
+	flex-direction: row;
+}
+
+
+.p_line_1{
+	width: 36%;
+	height: 100%;
+	display: flex;
+	text-align: center;
+	padding: 1%;
+	font-size: 0.68em;
+}
+
+.p_line_2{
+	width: 41%;
+	height: 100%;
+	display: flex;
+	text-align: center;
+	padding: 1%;
+	font-size: 0.68em;
+}	
+
+.img_1_contant{
+	width: 37%;
+	height: 100%;
+	background-image: url(../img/ph.jpg);
+	background-attachment: cover;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.img_2_contant{
+	width: 37%;
+	height: 100%;
+	background-image: url(../img/ph2.png);
+	background-attachment: cover;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.img_3_contant{
+	width: 37%;
+	height: 100%;
+	background-image: url(../img/photo_1.jpg);
+	background-attachment: cover;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.for{
+	width: 100%;
+	height: 94vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.video{
+	width: 80%;
+	height: 50%;
+}
+
+.link_bg{
+	width: 80%;
+	height: 50%;
+}
+
+.link{
+	width: 100%;
+	height: 100%;
+	background: white;
+	display: flex;
+	opacity: 1;
+	justify-content: center;
+	align-items: center;
+	font-size: 3em;
+}
+
+.button_link{
+	border: none;
+	background: none;
+	font-size: 1em;
+}
+
+.button_link:hover	{
+	text-shadow: -5px 4px 5px #000000;
+}
+
+.links{
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+
+.box_a{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.box_a a{
+	font-size: 2em;
+}
+
+
+#game_section {
+    /* #7D00CA */
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+}
+
+.game-header {
+    width: 100%;
+    height: 20vh;
+    padding-left: 15%;
+    padding-top: 3.5vh;
+}
+
+.link--to-main {
+    color: white;
+    text-decoration: none;
+    font-size: 3.5vh;
+    font-weight: bold;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+}
+
+.game-container input:nth-child(2) {
+    background: transparent;
+    text-align: center;
+    outline: 0;
+    border: 0;
+    font-weight: bold;
+    font-size: 3vh;
+    width: 100%;
+}
+
+#userinput {
+    width: 35vh;
+    height: 9vh;
+    font-size: 5vh;
+    color: black;
+    outline: 0;
+    border: 0;
+    background: white;
+    caret-color: black;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.35);
+    padding-left: 2vh;
+}
+
+#userstats {
+    width: 20vh;
+    height: 5.2vh;
+    font-size: 5vh;
+    color: white;
+    outline: 0;
+    border: 0;
+    background: transparent;
+    font-weight: bold;
+    padding-left: 5.7vh;
+}
+
+.game-img-container {
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-img{
+	width: 40%;
+	height: 100%;
+	background: url(../img/typing.svg);
+	background-attachment: cover;
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.mobile-game {
+    display: none;
+}
+
+@media (orientation: portrait) {
+    .game-header {
+        padding-left: 5%;
+    }
+
+    .mobile-game {
+        display: block;
+        font-size: 3.5vh;
+        color: white;
+        font-weight: bold;
+    }
+
+    input {
+        display: none;
+    }
+
+    .game-img {
+        display: none;
+    }
+}

@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	margin: 0 auto;
+}
+.orbita1{
+	background-color: orange;
+	width: 800px;
+	height: 500px;
+	position: absolute;
+	top: 60px;
+	left: 300px; 
+	border-radius: 50%;
+	transform: rotate(-25deg);
+}
+.white{
+	width: 750px;
+	height: 450px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	top: 25px;
+	left: 30px;
+}
+.orbita2{
+	background-color: orange;
+	width: 725px;
+	height: 430px; 
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+.white2{
+	width: 700px;
+	height: 400px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+.orbita3{
+	background-color: orange;
+	width: 677px;
+	height: 375px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	border-radius: 50%; 
+}
+.white3{
+	background-color: white;
+	width: 640px;
+	height: 350px;
+	border-radius: 50%;
+	position: absolute;
+	left: 20px;
+	top: 10px;
+}
+.orbita4{
+	background-color: orange;
+	width: 610px;
+	height: 320px;
+	border-radius: 50%;
+	position: absolute;
+	left: 20px;
+	top: 10px;
+}	
+.white4{
+	background-color: white;
+	width: 580px;
+	height: 290px;
+	border-radius: 50%; 
+	position: absolute;
+	left: 14px;
+	top: 10px;
+}
+.sun{
+	background-attachment: cover;
+	background-size: 100%;
+	background-image: url(../img/sunny.png);
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 170px;
+	top: 30px;
+}
+.planet1{
+	background-attachment: cover;
+	background-size: 100%;
+	background-image: url(../img/venus.png);
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	left: 650px;
+	top: 410px;
+}
+.planet2{
+	background-attachment: cover;
+	background-size: 100%;
+	background-image: url(../img/mars.png);
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	left: 960px;
+	top: 150px;
+}
+.planet3{
+	background-attachment: cover;
+	background-size: 100%;
+	background-image: url(../img/p1.png);
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	left: 390px;
+	top: 300px;
+}
+.planet4{
+	background-attachment: cover;
+	background-size: 100%;
+	background-image: url(../img/planet.png);
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	left: 900px;
+	top: 400px;
+}
+.planet5{	
+	background-attachment: cover;
+	background-size: 100%;
+	background-image: url(../img/neptune.png);
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	left: 700px;
+}
+.planet6{	
+	background-attachment: cover;
+	background-size: 100%;
+	background-image: url(../img/worldwide.png);
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	left: 470px;
+	top: 478px;
+}
+.planet7{	
+	background-attachment: cover;
+	background-size: 100%;
+	background-image: url(../img/earth.png);
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	left: 500px;
+	top: 110px;
+}

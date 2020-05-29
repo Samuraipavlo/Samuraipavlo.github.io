@@ -1,0 +1,56 @@
+.fold-lob{
+	font-family: 'Lobster', cursive;
+}
+.bob{
+	background-attachment: cover;
+	background-size: 100%;
+	background-image: url(../img/cabin.png);
+	height: 180px;
+}
+.bob1{
+	background-attachment: cover;
+	background-size: 100%;
+	background-image: url(../img/cake.png);
+	height: 180px;
+}
+.bob2{
+	background-attachment: cover;
+	background-size: 100%;
+	background-image: url(../img/circus.png);
+	height: 180px;
+}
+.bob3{
+	background-attachment: cover;
+	background-size: 100%;
+	background-image: url(../img/game.png);
+	height: 180px;
+}
+.bob4{
+	background-attachment: cover;
+	background-size: 100%;
+	background-image: url(../img/safe.png);
+	height: 180px;
+}
+.bob5{
+	background-attachment: cover;
+	background-size: 100%;
+	background-image: url(../img/submarine.png);
+	height: 180px;
+}
+.dis-block{
+	display: inline-block;
+}
+.h-200{
+	height: 200px;
+}
+.a1{
+	position: absolute;
+	left: 173px;
+	top: 157px;
+	opacity: 0;
+}
+.a1:hover {
+	opacity: 1;
+	color: #00bfa5;
+	text-decoration: none;
+}
