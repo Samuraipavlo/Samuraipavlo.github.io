@@ -274,7 +274,7 @@
 .container .modal_1 .modal-contant_1 .block_more_1 .images {
   width: 100%;
   height: 56%;
-  background-image: url(../img/kawatachay.png);
+  background-image: url(../img/lr2.jpg);
   background-attachment: cover;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -1918,8 +1918,4 @@
   .container .contact-container {
     height: 150vh;
   }
-}
-
-a{
-  color:black;
 }
