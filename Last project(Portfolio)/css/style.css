@@ -1551,6 +1551,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #000;
 }
 .container .contact-container .top_contact .get_in_touch .contact_phone .icon_phone {
   width: 17%;
