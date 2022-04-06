@@ -845,6 +845,9 @@
   flex-direction: column;
   justify-content: space-around;
 }
+.container .about-me-container .about_me .date a {
+  color: #000;
+}
 .container .about-me-container .about_me .date div {
   display: flex;
 }
