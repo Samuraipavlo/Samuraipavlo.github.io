@@ -848,6 +848,11 @@
 .container .about-me-container .about_me .date div {
   display: flex;
 }
+.container .about-me-container .about_me .date div a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #000;
+}
 .container .about-me-container .about_me .date div p:nth-child(2n) {
   margin-left: 10px;
 }
@@ -873,6 +878,7 @@
   font-size: 1.5em;
   border: 0;
   border-radius: 0;
+  cursor: pointer;
 }
 .container .about-me-container .about_me .button_container button:hover {
   width: 38%;
@@ -882,7 +888,7 @@
   border: 2px solid black;
 }
 .container .about-me-container .about_me .button_container button:not(:hover) {
-  transition: 0.4s;
+  transition: 0.5s;
 }
 @media screen and (max-device-width: 415px) {
   .container .about-me-container .about_me h1 {
@@ -1500,6 +1506,9 @@
   justify-content: space-between;
   align-items: center;
 }
+.container .contact-container .top_contact .get_in_touch a {
+  color: #000;
+}
 .container .contact-container .top_contact .get_in_touch .contact_address {
   width: 31%;
   height: 55%;
@@ -1647,6 +1656,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  cursor: pointer;
 }
 .container .contact-container .bottom_form .sociable .facebook .icon_facebook {
   width: 30%;
@@ -1662,6 +1672,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  cursor: pointer;
 }
 .container .contact-container .bottom_form .sociable .twitter .icon_twitter {
   width: 30%;
@@ -1677,6 +1688,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  cursor: pointer;
 }
 .container .contact-container .bottom_form .sociable .instagram .icon_instagram {
   width: 30%;
@@ -1692,6 +1704,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  cursor: pointer;
 }
 .container .contact-container .bottom_form .sociable .googleplus .icon_googleplus {
   width: 30%;
@@ -1707,6 +1720,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  cursor: pointer;
 }
 .container .contact-container .bottom_form .sociable .pinterest .icon_pinterest {
   width: 30%;
@@ -1722,6 +1736,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  cursor: pointer;
 }
 .container .contact-container .bottom_form .sociable .steam .icon_steam {
   width: 30%;
@@ -1823,6 +1838,7 @@
   background: #000;
   border: 0;
   border-radius: 0;
+  cursor: pointer;
 }
 .container .contact-container .bottom_form .form button:hover {
   width: 23%;
@@ -1853,6 +1869,7 @@
   .container .contact-container .bottom_form .form #button_submit {
     width: 30%;
     height: 8%;
+    cursor: pointer;
   }
 }
 @media screen and (max-device-width: 1024px) and (min-device-width: 768px) {
@@ -1864,6 +1881,7 @@
   .container .contact-container .bottom_form .form #button_submit {
     width: 30%;
     height: 8%;
+    cursor: pointer;
   }
   .container .contact-container .bottom_form .form p {
     font-size: 5.5vw;
