@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.power {
+    width: 500px;
+    height: 200px; 
+    border: 4px solid #000; 
+    margin-bottom: 10px; 
+    position: relative; 
+}
+
+.power::before, .power::after {
+    content: '';
+    position: absolute;
+    height: 100%; 
+}
+
+.power::after { 
+    width: 25px;
+    height: 60px;
+    background: #000;
+    right: -25px; 
+    top: 65px;
+}
+
+.malo::before { 
+    width: 33%;
+    background: #ED1C24;
+}
+
+.serednyo::before { 
+    width: 66%;
+    background: #FFC60B;
+}
+
+.povna::before { 
+    width: 100%;
+    background: #00A055;
+}

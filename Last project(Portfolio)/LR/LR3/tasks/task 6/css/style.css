@@ -1,0 +1,24 @@
+.title {
+    overflow: hidden;
+    text-align: center;
+    font-size: 30px;
+}
+.title span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.title:before, .title:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 6px;
+    background-color: black;
+    position: relative;
+}
+.title:before {
+    margin-left: -105%;
+}
+.title:after {
+    margin-right: -100%;
+}

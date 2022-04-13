@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(355deg, #6b8a82, #9ac1b7, #3d4b47);
+    background-size: 600% 600%;
+
+    -webkit-animation: grad 15s ease infinite;
+    -moz-animation: grad 15s ease infinite;
+    animation: grad 15s ease infinite;
+}
+
+@-webkit-keyframes grad {
+    0%{background-position:25% 0%}
+    50%{background-position:76% 100%}
+    100%{background-position:25% 0%}
+}
+@-moz-keyframes grad {
+    0%{background-position:25% 0%}
+    50%{background-position:76% 100%}
+    100%{background-position:25% 0%}
+}
+@keyframes grad {
+    0%{background-position:25% 0%}
+    50%{background-position:76% 100%}
+    100%{background-position:25% 0%}
+}
+
+.left_aside, .right_aside, .center_aside{
+    width: 28%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.work{
+    width: 70%;
+    height: 17vh;
+    background: #5b9a6c;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.work:hover{
+    width: 73%;
+    -webkit-box-shadow: 8px 8px 20px -1px #000000; 
+    box-shadow: 8px 8px 20px -1px #000000;
+    transition: 1.2s;
+}
+
+.work:not(:hover) {
+    transition: 1s;
+}
