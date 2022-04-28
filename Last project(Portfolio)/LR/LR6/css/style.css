@@ -180,3 +180,18 @@
 .bold{
     font-weight: bolder;
 }
+
+.bottom_block .new{
+    width: 50%;
+    height: 37%;
+    color: white;
+    background: #ff3e3e;
+    font-size: 1.1em;
+    border: 0;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.bottom_block .new:hover{
+    background: #ff1010;
+}
