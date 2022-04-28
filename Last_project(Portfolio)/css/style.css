@@ -290,31 +290,37 @@
 .container .modal_1 .modal-contant_1 .block_more_1 .text_1 span {
   margin-left: 10px;
 }
-.container .modal_1 .modal-contant_1 .block_more_1 a {
-  width: 100%;
-  height: 7%;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 10px;
-}
-.container .modal_1 .modal-contant_1 .block_more_1 a button {
+.container .modal_1 .modal-contant_1 .block_more_1 button {
   width: 25%;
-  height: 100%;
+  height: 10%;
   color: white;
   background: #000;
   font-size: 1.2em;
   border: 0;
   border-radius: 0;
   cursor: pointer;
+  margin-bottom: 10px;
 }
-.container .modal_1 .modal-contant_1 .block_more_1 a button:hover {
+.container .modal_1 .modal-contant_1 .block_more_1 button a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+}
+.container .modal_1 .modal-contant_1 .block_more_1 button:hover {
   width: 28%;
   transition: 0.4s;
   background: white;
   color: black;
   border: 2px solid black;
 }
-.container .modal_1 .modal-contant_1 .block_more_1 a button:not(:hover) {
+.container .modal_1 .modal-contant_1 .block_more_1 button:not(:hover) {
+  transition: 0.4s;
+}
+.container .modal_1 .modal-contant_1 .block_more_1 button a:hover {
+  color: black;
+}
+.container .modal_1 .modal-contant_1 .block_more_1 button a:not(:hover) {
   transition: 0.4s;
 }
 @media screen and (max-device-width: 415px) {
@@ -387,31 +393,37 @@
 .container .modal_2 .modal-contant_2 .block_more_2 .text_2 span {
   margin-left: 10px;
 }
-.container .modal_2 .modal-contant_2 .block_more_2 a {
-  width: 100%;
-  height: 7%;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 10px;
-}
-.container .modal_2 .modal-contant_2 .block_more_2 a button {
+.container .modal_2 .modal-contant_2 .block_more_2 button {
   width: 25%;
-  height: 100%;
+  height: 10%;
   color: white;
   background: #000;
   font-size: 1.2em;
   border: 0;
   border-radius: 0;
   cursor: pointer;
+  margin-bottom: 10px;
 }
-.container .modal_2 .modal-contant_2 .block_more_2 a button:hover {
+.container .modal_2 .modal-contant_2 .block_more_2 button a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+}
+.container .modal_2 .modal-contant_2 .block_more_2 button:hover {
   width: 28%;
   transition: 0.4s;
   background: white;
   color: black;
   border: 2px solid black;
 }
-.container .modal_2 .modal-contant_2 .block_more_2 a button:not(:hover) {
+.container .modal_2 .modal-contant_2 .block_more_2 button:not(:hover) {
+  transition: 0.4s;
+}
+.container .modal_2 .modal-contant_2 .block_more_2 button a:hover {
+  color: black;
+}
+.container .modal_2 .modal-contant_2 .block_more_2 button a:not(:hover) {
   transition: 0.4s;
 }
 @media screen and (max-device-width: 415px) {
@@ -484,31 +496,37 @@
 .container .modal_3 .modal-contant_3 .block_more_3 .text_3 span {
   margin-left: 10px;
 }
-.container .modal_3 .modal-contant_3 .block_more_3 a {
-  width: 100%;
-  height: 7%;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 10px;
-}
-.container .modal_3 .modal-contant_3 .block_more_3 a button {
+.container .modal_3 .modal-contant_3 .block_more_3 button {
   width: 25%;
-  height: 100%;
+  height: 10%;
   color: white;
   background: #000;
   font-size: 1.2em;
   border: 0;
   border-radius: 0;
   cursor: pointer;
+  margin-bottom: 10px;
 }
-.container .modal_3 .modal-contant_3 .block_more_3 a button:hover {
+.container .modal_3 .modal-contant_3 .block_more_3 button a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+}
+.container .modal_3 .modal-contant_3 .block_more_3 button:hover {
   width: 28%;
   transition: 0.4s;
   background: white;
   color: black;
   border: 2px solid black;
 }
-.container .modal_3 .modal-contant_3 .block_more_3 a button:not(:hover) {
+.container .modal_3 .modal-contant_3 .block_more_3 button:not(:hover) {
+  transition: 0.4s;
+}
+.container .modal_3 .modal-contant_3 .block_more_3 button a:hover {
+  color: black;
+}
+.container .modal_3 .modal-contant_3 .block_more_3 button a:not(:hover) {
   transition: 0.4s;
 }
 @media screen and (max-device-width: 415px) {
@@ -581,31 +599,37 @@
 .container .modal_4 .modal-contant_4 .block_more_4 .text_4 span {
   margin-left: 10px;
 }
-.container .modal_4 .modal-contant_4 .block_more_4 a {
-  width: 100%;
-  height: 7%;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 10px;
-}
-.container .modal_4 .modal-contant_4 .block_more_4 a button {
+.container .modal_4 .modal-contant_4 .block_more_4 button {
   width: 25%;
-  height: 100%;
+  height: 10%;
   color: white;
   background: #000;
   font-size: 1.2em;
   border: 0;
   border-radius: 0;
   cursor: pointer;
+  margin-bottom: 10px;
 }
-.container .modal_4 .modal-contant_4 .block_more_4 a button:hover {
+.container .modal_4 .modal-contant_4 .block_more_4 button a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+}
+.container .modal_4 .modal-contant_4 .block_more_4 button:hover {
   width: 28%;
   transition: 0.4s;
   background: white;
   color: black;
   border: 2px solid black;
 }
-.container .modal_4 .modal-contant_4 .block_more_4 a button:not(:hover) {
+.container .modal_4 .modal-contant_4 .block_more_4 button:not(:hover) {
+  transition: 0.4s;
+}
+.container .modal_4 .modal-contant_4 .block_more_4 button a:hover {
+  color: black;
+}
+.container .modal_4 .modal-contant_4 .block_more_4 button a:not(:hover) {
   transition: 0.4s;
 }
 @media screen and (max-device-width: 415px) {
@@ -678,31 +702,37 @@
 .container .modal_5 .modal-contant_5 .block_more_5 .text_5 span {
   margin-left: 10px;
 }
-.container .modal_5 .modal-contant_5 .block_more_5 a {
-  width: 100%;
-  height: 7%;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 10px;
-}
-.container .modal_5 .modal-contant_5 .block_more_5 a button {
+.container .modal_5 .modal-contant_5 .block_more_5 button {
   width: 25%;
-  height: 100%;
+  height: 10%;
   color: white;
   background: #000;
   font-size: 1.2em;
   border: 0;
   border-radius: 0;
   cursor: pointer;
+  margin-bottom: 10px;
 }
-.container .modal_5 .modal-contant_5 .block_more_5 a button:hover {
+.container .modal_5 .modal-contant_5 .block_more_5 button a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+}
+.container .modal_5 .modal-contant_5 .block_more_5 button:hover {
   width: 28%;
   transition: 0.4s;
   background: white;
   color: black;
   border: 2px solid black;
 }
-.container .modal_5 .modal-contant_5 .block_more_5 a button:not(:hover) {
+.container .modal_5 .modal-contant_5 .block_more_5 button:not(:hover) {
+  transition: 0.4s;
+}
+.container .modal_5 .modal-contant_5 .block_more_5 button a:hover {
+  color: black;
+}
+.container .modal_5 .modal-contant_5 .block_more_5 button a:not(:hover) {
   transition: 0.4s;
 }
 @media screen and (max-device-width: 415px) {
@@ -775,31 +805,37 @@
 .container .modal_6 .modal-contant_6 .block_more_6 .text_6 span {
   margin-left: 10px;
 }
-.container .modal_6 .modal-contant_6 .block_more_6 a {
-  width: 100%;
-  height: 7%;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 10px;
-}
-.container .modal_6 .modal-contant_6 .block_more_6 a button {
+.container .modal_6 .modal-contant_6 .block_more_6 button {
   width: 25%;
-  height: 100%;
+  height: 10%;
   color: white;
   background: #000;
   font-size: 1.2em;
   border: 0;
   border-radius: 0;
   cursor: pointer;
+  margin-bottom: 10px;
 }
-.container .modal_6 .modal-contant_6 .block_more_6 a button:hover {
+.container .modal_6 .modal-contant_6 .block_more_6 button a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+}
+.container .modal_6 .modal-contant_6 .block_more_6 button:hover {
   width: 28%;
   transition: 0.4s;
   background: white;
   color: black;
   border: 2px solid black;
 }
-.container .modal_6 .modal-contant_6 .block_more_6 a button:not(:hover) {
+.container .modal_6 .modal-contant_6 .block_more_6 button:not(:hover) {
+  transition: 0.4s;
+}
+.container .modal_6 .modal-contant_6 .block_more_6 button a:hover {
+  color: black;
+}
+.container .modal_6 .modal-contant_6 .block_more_6 button a:not(:hover) {
   transition: 0.4s;
 }
 @media screen and (max-device-width: 415px) {
@@ -1861,7 +1897,7 @@
 }
 .container .contact-container .bottom_form .form #email,
 .container .contact-container .bottom_form .form #sex,
-.container .contact-container .bottom_form .form #subject {
+.container .contact-container .bottom_form .form .subject {
   height: 9%;
   font-size: 0.7em;
 }
