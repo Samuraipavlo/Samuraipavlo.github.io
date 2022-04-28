@@ -1,5 +1,5 @@
 //
-var scrolled;
+let scrolled;
 window.onscroll = function scrall() {
     scrolled = window.pageYOffset || document.documentElement.scrollTop;
     if(scrolled < 75){
