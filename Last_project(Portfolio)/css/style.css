@@ -1908,7 +1908,7 @@
 @media screen and (max-device-width: 415px) {
   .container .contact-container .bottom_form .form #email,
   .container .contact-container .bottom_form .form #sex,
-  .container .contact-container .bottom_form .form #subject {
+  .container .contact-container .bottom_form .form .subject {
     font-size: 4.5vw;
   }
   .container .contact-container .bottom_form .form #button_submit {
@@ -1920,7 +1920,7 @@
 @media screen and (max-device-width: 1024px) and (min-device-width: 768px) {
   .container .contact-container .bottom_form .form #email,
   .container .contact-container .bottom_form .form #sex,
-  .container .contact-container .bottom_form .form #subject {
+  .container .contact-container .bottom_form .form .subject {
     font-size: 3.5vw;
   }
   .container .contact-container .bottom_form .form #button_submit {
