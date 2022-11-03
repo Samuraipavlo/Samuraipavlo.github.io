@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let stavka = prompt("зробіть ставку");
+        
+        function getRandomArbitrary(min, max) {
+             return Math.random() * (max - min) + min;
+        }
+
+        let ramdik =  getRandomArbitrary(-5, 5);
+
+        if(ramdik > 0){
+            stavka = stavka * ramdik
+            setTimeout("alert('Ваш виграш ' + (parseInt(stavka * 100)) / 100)", 1000);
+        }
+        else if(ramdik <= 0){
+            stavka = 0;
+            setTimeout("alert('Ви не вгадали')", 1000);
+        }
+
+
+
+    </script>
+</body>
+</html>
