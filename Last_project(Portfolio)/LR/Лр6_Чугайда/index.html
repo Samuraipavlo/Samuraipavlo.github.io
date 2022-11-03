@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h3> HEAD 1 </h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nam magnam, sint nobis enim ad quaerat reprehenderit quasi eum iure unde. Voluptates eveniet accusamus, ullam obcaecati molestias quia, sint culpa quaerat incidunt saepe distinctio dicta, accusantium vitae. Ratione rerum dolore sapiente debitis fugit et est, consequuntur modi laborum voluptatibus illo ex repudiandae eaque vero nisi ab dolores saepe iure quasi excepturi officia corporis. Dignissimos dicta hic cumque esse excepturi culpa fugit repellat optio obcaecati, doloremque voluptate similique vel consequuntur aliquid?</p>
+    <h3> HEAD 2 </h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae exercitationem natus impedit similique sequi doloribus obcaecati eligendi, explicabo enim temporibus a ipsum voluptatum ratione autem ea tempore molestias amet? Possimus, voluptate? Reprehenderit eaque quos obcaecati. Nihil nesciunt sunt exercitationem ab quae rem culpa, cum labore vero iure voluptates accusamus autem doloremque officiis cupiditate non numquam dolor officia commodi eos deleniti amet, ratione inventore at. Omnis tempora sunt temporibus, totam maiores possimus qui impedit vitae corporis nulla vero similique, ratione nostrum.</p>
+    <h3> HEAD 3 </h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, quos soluta. Deleniti cumque facere temporibus quis quod numquam adipisci cupiditate ea ipsam delectus magni saepe ullam atque natus aliquid, esse beatae vel repellendus ipsa, iure nam quas repudiandae iste inventore. Non necessitatibus, quaerat itaque eius harum nihil in, pariatur rem consequuntur porro distinctio maiores expedita repudiandae officiis, nemo accusamus eum sint nobis. Voluptate, sint illum. Sint doloremque, at ducimus quisquam numquam esse! Iure harum ullam obcaecati, sapiente unde quas nobis.</p>
+    <table>
+        <tbody>
+          <tr>
+            <td> 1</td>
+            <td id="test"> 2</td>
+            <td> 3</td>
+          </tr>
+          <tr>
+            <td> 4</td>
+            <td> 5</td>
+            <td> 6</td>
+          </tr>
+          <tr>
+            <td> 7</td>
+            <td> 8</td>
+            <td> 9</td>
+          </tr>
+        </tbody>
+    </table>
+    <img src="../Лр6_Чугайда/img/prog.jpg" alt="">
+    <button onclick="tablet()">script</button>
+
+    <script>
+        function tablet(){
+            document.body.style.margin = "150px auto";
+
+            var table = document.body.children[6];
+            var text1 = document.body.children[1].innerHTML;
+            var text2 = document.body.children[3].innerHTML;
+            var text3 = document.body.children[5].innerHTML;
+
+            var head1 = document.body.children[0].innerHTML;
+            var head2 = document.body.children[2].innerHTML;
+            var head3 = document.body.children[4].innerHTML;
+
+            table.rows[0].cells[0].innerHTML = head1;
+            table.rows[1].cells[0].innerHTML = head2;
+            table.rows[2].cells[0].innerHTML = head3;
+        
+            table.rows[0].cells[1].innerHTML = text1;
+            table.rows[1].cells[1].innerHTML = text2;
+            table.rows[2].cells[1].innerHTML = text3;
+
+            var text1 = document.body.children[1].innerHTML = " ";
+            var text2 = document.body.children[3].innerHTML = " ";
+            var text3 = document.body.children[5].innerHTML = " ";
+
+            var head1 = document.body.children[0].innerHTML = " ";
+            var head2 = document.body.children[2].innerHTML = " ";
+            var head3 = document.body.children[4].innerHTML = " ";
+        }
+    </script>
+</body>
+</html>
